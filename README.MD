@@ -63,4 +63,7 @@ webpack --mode=development ./src/hello.js --output ./build/main.js
     mini-css-extract-plugin插件也是用来提取css到单独的文件的，该插件有个前提条件，只能用于webpack 4及以上的版本，所以如果使用的webpack版本低于4，,那还是用回extract-text-webpack-plugin插件。
 
   8 optimization 压缩相关
-  
+
+
+  总结，主要还是要研读各个api，并根据需求配置，
+  别人的例子https://github.com/AlexandreJw/webpack4.x-learn 

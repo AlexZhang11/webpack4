@@ -1,0 +1,9 @@
+{
+     "presets": [
+          ["@babel/preset-env", {"debug":true,"useBuiltIns":"usage"}],
+          ["@babel/preset-react"]
+          ],//usage按使用到的使用编译，entry不管是否使用到都有
+    "plugins": [
+                ["@babel/plugin-proposal-decorators", { "legacy": true }],
+               ]
+  }

@@ -81,19 +81,23 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/hello.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
+/***/ "./src/hello.js":
 /*!**********************!*\
-  !*** ./src/index.js ***!
+  !*** ./src/hello.js ***!
   \**********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("const HelloWorld = ()=>{\r\n    console.log('HelloWorld')\r\n}\r\n\r\nHelloWorld()\n\n//# sourceURL=webpack:///./src/index.js?");
+function HelloWorld() {
+  console.log('HelloWorld Hello.js');
+}
+
+HelloWorld();
 
 /***/ })
 

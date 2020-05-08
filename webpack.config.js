@@ -20,7 +20,8 @@ module.exports = {
     devtool:false,//配置打包输出文件可读性
     output:{
         path:path.resolve(__dirname,'dist'),//__dirname全局变量
-        filename:'[name]-[hash].bundle.js'
+        filename:'[name]-[hash].bundle.js',
+        chunkFilename: '[name].[hash].chunk.js',
     
     },
     module: {

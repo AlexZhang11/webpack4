@@ -67,3 +67,7 @@ webpack --mode=development ./src/hello.js --output ./build/main.js
 
   总结，主要还是要研读各个api，并根据需求配置，
   别人的例子https://github.com/AlexandreJw/webpack4.x-learn 
+
+
+"webpack-dev-server": "^3.10.3"
+//开启本地服务器，可以在本地运行http://localhost:8080/开启热加载等等 
